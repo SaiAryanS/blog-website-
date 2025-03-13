@@ -82,3 +82,23 @@ button {
 button:hover {
     background: #00cc88;
 }
+
+
+.floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #00ffa6;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 1%;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+}
+
+.floating-btn:hover {
+    background: #00cc85;
+}
