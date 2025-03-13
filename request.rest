@@ -1,0 +1,7 @@
+### Get all blogs
+GET http://localhost:3000/api/blogs
+Content-Type: application/json
+
+### Get a specific blog by ID (Change ID as needed)
+GET http://localhost:3000/api/blog/1
+Content-Type: application/json
